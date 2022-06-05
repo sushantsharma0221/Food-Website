@@ -1,0 +1,167 @@
+:root {
+  --btn-color: rgb(223, 120, 51);
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Pacifico&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-shadow: 2px 2px 6px rgba(90, 90, 90, 0.482);
+}
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: rgb(248, 249, 251);
+}
+ul li {
+  margin: 0.7rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+.title {
+  font-size: 2.2rem;
+  font-family: "Pacifico", cursive;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 6px rgba(90, 90, 90, 0.482);
+}
+.nav-link {
+  color: black !important;
+  letter-spacing: 1px;
+}
+.nav-link:hover {
+  transition: ease-in 0.3s;
+  color: var(--btn-color) !important;
+}
+.active {
+  font-weight: bold;
+  color: var(--btn-color) !important;
+}
+.search-bar {
+  border: 1px solid var(--btn-color);
+  border-radius: 30px;
+  outline: none;
+  padding-left: 10px;
+  font-size: 1.1rem;
+}
+.search-btn {
+  background-color: var(--btn-color);
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 6px 12px rgba(83, 83, 83, 0.429);
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+.search-btn:hover {
+  background-color: rgb(195, 115, 23);
+  transition: ease-in-out 0.3s;
+}
+.search-btn:active {
+  transform: scale(0.97);
+}
+#home {
+  background-image: url("./Images/backgrounds/brooke-lark-4J059aGa5s4-unsplash.jpg");
+  background-size: cover;
+  height: 115vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.281);
+  background-blend-mode: color;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+}
+#home h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  text-shadow: 2px 2px 6px rgba(42, 42, 42, 0.712);
+}
+.more-tips {
+  border: none;
+  padding: 10px 50px;
+}
+#trending {
+  font-size: 1.15rem;
+  text-transform: uppercase;
+}
+#trending img {
+  width: 16rem;
+  -webkit-filter: drop-shadow(5px 5px 8px #222);
+  filter: drop-shadow(5px 5px 8px #222);
+}
+.trending p {
+  color: var(--btn-color);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.packaged-foods img {
+  width: 22rem !important;
+}
+.packaged-foods p {
+  color: rgb(129, 129, 129);
+}
+.click-for-more {
+  border: none;
+  padding: 10px 18px;
+}
+
+#organic img {
+  width: 26rem;
+  border-radius: 12px;
+}
+.organic-paragraph {
+  color: var(--btn-color);
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+}
+.submit {
+  padding: 10px 40px;
+}
+#store {
+  background-image: url("./Images/backgrounds/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.429);
+  background-blend-mode: color;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+}
+#store p {
+  font-size: 1.2rem;
+}
+#store h1 {
+  font-family: "Pacifico", cursive;
+}
+#contact {
+  background-color: black;
+  border-top: 1px solid gray;
+}
+.input {
+  border: 2px solid white;
+  padding: 4px;
+  outline: none;
+  border-radius: 18px;
+  min-width: 300px;
+}
+.footer-btn {
+  padding: 6px 14px;
+}
+.fa-brands {
+  font-size: 2rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+.fa-brands:hover {
+  transition: ease-in 0.3s;
+  color: var(--btn-color);
+}
