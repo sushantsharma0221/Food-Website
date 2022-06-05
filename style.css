@@ -165,3 +165,7 @@ ul li {
   transition: ease-in 0.3s;
   color: var(--btn-color);
 }
+.icons {
+  font-size: 3rem;
+  color: var(--btn-color);
+}
