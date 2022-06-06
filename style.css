@@ -1,5 +1,5 @@
 :root {
-  --btn-color: rgb(223, 120, 51);
+  --btn-color: #cf752c;
 }
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Pacifico&display=swap");
 * {
@@ -113,6 +113,12 @@ ul li {
 #organic img {
   width: 26rem;
   border-radius: 12px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+#organic img:hover {
+  transform: scale(1.06);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.568);
 }
 .organic-paragraph {
   color: var(--btn-color);
@@ -142,16 +148,21 @@ ul li {
 #store h1 {
   font-family: "Pacifico", cursive;
 }
-#contact {
-  background-color: black;
-  border-top: 1px solid gray;
-}
+
 .input {
   border: 2px solid white;
   padding: 4px;
   outline: none;
   border-radius: 18px;
   min-width: 300px;
+}
+footer {
+  background-image: url("./Images/backgrounds/charlesdeluvio-D-vDQMTfAAU-unsplash.jpg");
+  background-color: rgba(0, 0, 0, 0.856);
+  background-blend-mode: color;
+  border-top: 1px solid gray;
+  background-size: cover;
+  background-position: center;
 }
 .footer-btn {
   padding: 6px 14px;
